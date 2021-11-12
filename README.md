@@ -26,3 +26,6 @@ Error: request to http://localhost:3000/api/graphql failed, reason: connect ECON
 ```
 
 Seems that the error comes from SSG so I remove it and then all applications are sucessfully built if SSG is excluded. Question: Is there any part that I understand wrong? How should I modify the code to support SSG GraphQL in next?
+
+Note: I also submit the `.env` file directly just in case if someone needs it for debugging.
+
